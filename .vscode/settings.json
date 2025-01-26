@@ -1,0 +1,7 @@
+{
+  "python.testing.pytestArgs": [
+    "tango_with_django_project"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
