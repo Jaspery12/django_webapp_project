@@ -13,6 +13,7 @@
         This tutorial has been put together by Jasper. <br />
     </div>
     <div>
+        <a>Visits: {{ visits }}</a>
         <a href="{% url 'rango:index' %}">Index</a><br />
         <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
         <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." />
