@@ -25,6 +25,11 @@
               <label for="inputPassword" class="sr-only">Password</label>
               <input type="password" name="password" id="id_password" class="form-control" placeholder="Password" required>
           </div>
+          {% if form.errors %}
+          <div class="text-danger mb-3" role="alert" >
+            Incorrect username or password
+          </div>  
+          {% endif %}
           <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       </form>
         <div class="text-center mt-3">
